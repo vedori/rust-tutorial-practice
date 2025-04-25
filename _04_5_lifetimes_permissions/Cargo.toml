@@ -1,0 +1,6 @@
+[package]
+name = "_04_6_lifetimes_permissions"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

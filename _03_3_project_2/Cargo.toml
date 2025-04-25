@@ -1,0 +1,6 @@
+[package]
+name = "_03_3_project_2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
