@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "_06_structs"
+name = "_05_3_associated_functions"
 version = "0.1.0"

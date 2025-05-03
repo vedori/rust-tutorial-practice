@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "_06_1_tuple_structs"
+name = "_06_1_1_enums"
 version = "0.1.0"

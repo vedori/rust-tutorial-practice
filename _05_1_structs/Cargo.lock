@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "_05_1_slices"
+name = "_05_1_structs"
 version = "0.1.0"

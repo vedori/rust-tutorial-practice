@@ -17,6 +17,7 @@ fn main() {
     // type need to be specified when destructuring
     let Point(x, y, z) = origin;
     let Color(r, g, b) = black;
+
     println!("{x}{y}{z}");
     println!("{r}{g}{b}");
 }

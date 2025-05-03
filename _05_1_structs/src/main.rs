@@ -1,9 +1,13 @@
+#![allow(unused)]
 struct User {
     active: bool,
     username: String,
     email: String,
     sign_in_count: u64,
 }
+
+// Naming defaults for struct names is CamelCase
+struct SuperUser;
 
 // can construct a new instance as the last expression in the function
 fn build_user(email: String, username: String) -> User {

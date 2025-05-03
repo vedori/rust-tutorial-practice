@@ -1,5 +1,5 @@
 [package]
-name = "_06_1_tuple_structs"
+name = "_05_1_unit_like_structs"
 version = "0.1.0"
 edition = "2024"
 
