@@ -1,3 +1,4 @@
+#![allow(unused)]
 //enums give you a way of saying a value is one of a possible set of values.
 
 // IP addresses can be IPv4 or IPv6
