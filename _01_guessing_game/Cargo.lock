@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "_1_guessing_game"
+name = "_01_guessing_game"
 version = "0.1.0"
 dependencies = [
  "rand",
