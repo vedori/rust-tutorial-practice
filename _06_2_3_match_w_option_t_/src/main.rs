@@ -1,4 +1,4 @@
-#![allow(unused)]
+#![allow(unused, clippy::manual_map)]
 
 // we can handle Option<T> using match
 fn plus_one(x: Option<i32>) -> Option<i32> {
