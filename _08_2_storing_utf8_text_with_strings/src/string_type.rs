@@ -1,5 +1,8 @@
-// Rust only has one string type which is the string slice `str`
+// Rust only has one string type which is the string slice `str` which is encoded as
+// a type of byte sequence.
 // Usually in it's borrowed form `&str` and is UTF-8 encoded
+// &str is a promise that a byte sequence can always be interpreted as UTF-8
+// this differentiates it from &[u8] which can be any byte sequence.
 fn example() {
     // String literals are string slices of the characters stored in the program's binary
     let data = "initial contents";

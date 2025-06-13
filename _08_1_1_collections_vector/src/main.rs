@@ -23,7 +23,7 @@ fn main() {
     let mut v = vec![1, 2, 3];
 
     // v needs to be declared as mut to push a value
-    // `push(v)` appends `v` to the end of a collection
+    // `push(v)` adds `v` to the end of a collection
     v.push(4);
 
     println!("Hello, world!");
