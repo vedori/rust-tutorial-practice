@@ -1,0 +1,6 @@
+[package]
+name = "p_08_2_storing_utf8_text_with_strings"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

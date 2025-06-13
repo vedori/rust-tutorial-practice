@@ -1,0 +1,6 @@
+[package]
+name = "p_05_2_add_functionality_w_derived_traits"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

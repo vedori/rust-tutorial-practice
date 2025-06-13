@@ -1,6 +1,0 @@
-[package]
-name = "_05_3_struct_methods"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]

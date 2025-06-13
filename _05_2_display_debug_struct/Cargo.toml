@@ -1,6 +1,0 @@
-[package]
-name = "_05_2_display_debug_struct"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]

@@ -1,6 +1,0 @@
-[package]
-name = "_06_1_2_enum_variants_w_diff_embedded_values"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]

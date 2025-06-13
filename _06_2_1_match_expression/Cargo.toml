@@ -1,6 +1,0 @@
-[package]
-name = "_06_2_1_match_expression"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
