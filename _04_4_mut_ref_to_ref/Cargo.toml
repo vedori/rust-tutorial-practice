@@ -1,6 +1,0 @@
-[package]
-name = "_04_4_mut_ref_to_ref"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]

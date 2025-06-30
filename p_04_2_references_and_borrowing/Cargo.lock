@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "_04_4_mutable_references"
+name = "p_04_2_references_and_borrowing"
 version = "0.1.0"

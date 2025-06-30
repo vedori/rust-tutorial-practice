@@ -25,6 +25,7 @@ fn main() {
                 continue;
             }
         };
+
         if action_choice == "1" {
             add_an_employee_to_a_department(&mut departments);
         } else if action_choice == "2" {
