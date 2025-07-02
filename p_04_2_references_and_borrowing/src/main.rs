@@ -1,4 +1,10 @@
-#![allow(unused, clippy::borrowed_box, clippy::let_and_return, clippy::ptr_arg)]
+#![allow(
+    unused,
+    clippy::borrowed_box,
+    clippy::let_and_return,
+    clippy::ptr_arg,
+    clippy::needless_lifetimes
+)]
 
 use crate::aliasing::cannot_alias_and_mutate;
 
