@@ -49,7 +49,17 @@ fn okay_solution(name: &Vec<String>) -> String {
 
 // This avoids unecessary copies
 // `slice::join` already copies the data in name into the string `full`
-fn best_solution(name: &Vec<String>) -> String {
+fn better_solution(name: &Vec<String>) -> String {
+    let mut full = name.join(" ");
+    full.push_str(" Esq.");
+    full
+}
+
+// This accepts a String slice which is more versitile and does not strictly require
+// creating a Vector object, for example an array of String can also be accepted
+// as a String slice
+// More on slices in chapter 4.4
+fn best_solution(name: &[String]) -> String {
     let mut full = name.join(" ");
     full.push_str(" Esq.");
     full

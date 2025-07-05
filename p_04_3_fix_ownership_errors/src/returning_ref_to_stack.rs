@@ -14,7 +14,7 @@ fn return_a_string() -> &String {
 // 1. How long should my string live?
 // 2. Who should be in charge of deallocating it?
 
-// There are four stratgies to extend the lifetime of the string in return_a_string
+// There are four strategies to extend the lifetime of the string in return_a_string
 // Of course which strategy is most appropriate will depend on the application
 
 // Solution #1
