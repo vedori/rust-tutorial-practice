@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "_04_6_copy_data_out_of_collection"
+name = "p_04_4_slice_type"
 version = "0.1.0"

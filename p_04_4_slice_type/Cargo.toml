@@ -1,5 +1,5 @@
 [package]
-name = "_04_6_mutate_diff_array_elements"
+name = "p_04_4_slice_type"
 version = "0.1.0"
 edition = "2024"
 

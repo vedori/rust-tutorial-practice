@@ -1,6 +1,0 @@
-[package]
-name = "_04_6_mutate_tuple_fields"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
