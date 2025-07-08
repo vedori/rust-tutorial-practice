@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "_03_1_loops"
+name = "p_02_functions_expressions_and_statements"
 version = "0.1.0"

@@ -4,7 +4,7 @@
 // But this restriction extends to other cases
 // Even an immutable borrow from one element impacts the whole vector
 
-pub(crate) fn example() {
+pub fn example() {
     let mut v = vec![1, 2, 3, 4];
 
     // immutable reference borrow to an element in v

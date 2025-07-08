@@ -1,11 +1,10 @@
-#![allow(unused)]
 #[derive(Debug)]
 struct Rectangle {
     width: u32,
     height: u32,
 }
 
-pub(crate) fn example() {
+fn example() {
     let scale = 2;
     let rect1 = Rectangle {
         // dbg macro prints and returns the value of the expression inside it

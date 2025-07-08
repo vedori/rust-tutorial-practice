@@ -1,5 +1,4 @@
-#![allow(unused)]
-//enums give you a way of saying a value is one of a possible set of values.
+// Enums give you a way of saying a value is one of a possible set of values.
 
 // IP addresses can be IPv4 or IPv6
 // enum IpAddrKind {
@@ -50,7 +49,7 @@ enum IpAddr {
     You can embedd any data type into enums even structs and other enums
 */
 
-pub(crate) fn example() {
+fn example() {
     // IpAddr::V4() returns an instance of the IpAddr type
     let home = IpAddr::V4(127, 0, 0, 1);
 

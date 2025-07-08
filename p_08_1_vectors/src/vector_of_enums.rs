@@ -14,7 +14,7 @@ enum SpreadsheetCell {
     Text(String),
 }
 
-pub(crate) fn example() {
+pub fn example() {
     let row = vec![
         SpreadsheetCell::Int(3),
         SpreadsheetCell::Text(String::from("blue")),

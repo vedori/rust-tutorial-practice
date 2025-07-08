@@ -1,7 +1,7 @@
 // Boxe-like structures are used by Rust's data structures
 // like Vec String and HashMap to hold a **variable number** of elements
 
-fn example() {
+pub fn example() {
     let mut name = String::from("Jerry");
     // final length of name can be variable and does not need to be known at compile time
     // this is because Rust uses boxes to implement the String collection type

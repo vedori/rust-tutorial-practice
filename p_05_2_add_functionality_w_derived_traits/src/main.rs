@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 // 1
 mod debug_macro;
 //2

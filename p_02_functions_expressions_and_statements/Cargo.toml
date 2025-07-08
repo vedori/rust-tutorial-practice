@@ -1,5 +1,5 @@
 [package]
-name = "_03_functions_expressions_statements"
+name = "p_02_functions_expressions_and_statements"
 version = "0.1.0"
 edition = "2024"
 

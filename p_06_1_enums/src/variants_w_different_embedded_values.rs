@@ -16,7 +16,7 @@ impl Message {
     }
 }
 
-pub(crate) fn example() {
+fn example() {
     let m = Message::Write(String::from("hello world"));
     m.call();
     println!("Hello, world!");

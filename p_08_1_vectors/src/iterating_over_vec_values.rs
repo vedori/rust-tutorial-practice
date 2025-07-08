@@ -1,4 +1,4 @@
-pub(crate) fn example() {
+pub fn example() {
     let v = vec![100, 32, 57];
     for n_ref in &v {
         // n_ref has type &i32

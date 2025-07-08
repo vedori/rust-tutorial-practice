@@ -1,4 +1,4 @@
-#![allow(dead_code)]
+#![allow(unused, clippy::explicit_auto_deref)]
 // 1
 mod methods;
 // 2

@@ -9,7 +9,7 @@
 // However indexing makes sense in some applications like low-level embedded code
 // where it is better to crash immediately than to continue in an inconsistent state
 
-pub(crate) fn example() {
+pub fn example() {
     let v = vec![1, 2, 3, 4, 5];
 
     // Index method

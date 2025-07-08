@@ -16,5 +16,6 @@ mod ownership_and_move;
 mod cloning_vs_moving;
 
 fn main() {
+    collections::example();
     println!("Hello, world!");
 }

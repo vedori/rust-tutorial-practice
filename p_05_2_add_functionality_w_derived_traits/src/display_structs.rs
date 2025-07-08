@@ -1,4 +1,3 @@
-#![allow(unused)]
 // This enables debug printing in println macro (:?)
 #[derive(Debug)]
 struct Rectangle {
@@ -6,7 +5,7 @@ struct Rectangle {
     height: u32,
 }
 
-pub(crate) fn example() {
+fn example() {
     let rect1 = Rectangle {
         width: 30,
         height: 50,

@@ -1,4 +1,4 @@
-pub(crate) fn moving_data() {
+fn moving_data() {
     let first = String::from("Ferris");
     // first no longer has ownership to the String
     // the value is **moved** from `first` to the `full` variable

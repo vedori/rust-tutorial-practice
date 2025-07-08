@@ -10,7 +10,7 @@
     }
 */
 
-pub(crate) fn example() {
+fn example() {
     let some_number = Some(5); // type Option<i32>
     let some_char = Some('e'); // type Option<char>
     let absent_number: Option<i32> = None;

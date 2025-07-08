@@ -1,4 +1,3 @@
-#![allow(unused, clippy::explicit_auto_deref)]
 // In the impl block, <<ALL>> functions that aren't methods
 // are called associated functions because they are associated with the impl type
 // An example is String::from() which is a function defined on the String type
@@ -41,7 +40,7 @@ impl Rectangle {
     }
 }
 
-pub(crate) fn example() {
+fn example() {
     let mut r = Rectangle {
         width: 1,
         height: 2,

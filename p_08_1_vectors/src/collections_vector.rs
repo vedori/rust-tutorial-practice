@@ -13,7 +13,7 @@
 // the price of items in a shopping cart
 
 use std::vec::Vec;
-pub(crate) fn example() {
+pub fn example() {
     // v assigned to an empty collection, must have explicit type annotation
     let v: Vec<i32> = Vec::new();
 

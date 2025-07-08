@@ -19,6 +19,7 @@ fn main() {
 
     println!("Tuple stuff");
 
+    // Mut allows us to change the value of a variable without reassignment
     let mut tup: (i8, f64, u64) = (21, 42.6, 9_000_000_000_000);
 
     let (x, y, mut z) = tup;

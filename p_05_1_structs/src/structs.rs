@@ -1,5 +1,4 @@
-#![allow(unused)]
-struct User {
+pub struct User {
     active: bool,
     username: String,
     email: String,
@@ -10,7 +9,7 @@ struct User {
 struct SuperUser;
 
 // can construct a new instance as the last expression in the function
-fn build_user(email: String, username: String) -> User {
+pub fn build_user(email: String, username: String) -> User {
     User {
         active: true,
         // shorthand when field key and value are the same like email: email
@@ -20,7 +19,7 @@ fn build_user(email: String, username: String) -> User {
     }
 }
 
-pub(crate) fn example() {
+fn example() {
     // for mutability, the entire instance must be mutable
     // Rust doesn't allow only some fields to be marked as mutable
     let mut user1 = User {

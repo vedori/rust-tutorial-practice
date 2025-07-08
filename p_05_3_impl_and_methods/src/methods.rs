@@ -46,7 +46,7 @@ impl Rectangle {
     }
 }
 
-pub(crate) fn example() {
+fn example() {
     let rect1 = Rectangle {
         width: 30,
         height: 50,
