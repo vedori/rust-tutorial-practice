@@ -8,7 +8,7 @@
 // If both are dropped it will result in a double-free which causes undefined behavior
 // This WILL happen if the string value is moved again
 fn bad_copy_string_out_of_vector() {
-    let v = vec![String::from("Hello world")];
+    let v: Vec<String> = vec![String::from("Hello world")];
     let s_ref: &String = &v[0];
     // The data at *s_ref is moved instead of copied because String does not implement Copy
     // and you cannot move a value out of an immutable reference
@@ -62,5 +62,5 @@ fn use_standard_method_remove() {
     let mut s: String = v.remove(0);
     s.push('!');
     println!("{s}");
-    assert!(v.len() == 0);
+    assert!(v.is_empty());
 }
