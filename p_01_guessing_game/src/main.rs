@@ -6,7 +6,7 @@ fn main() {
     let random_number: u32 = random_range(1..=100);
     let mut tries: u32 = 0;
 
-    println!("Try to guess the right number!");
+    println!("Try to guess the right number between 1 and 100!");
 
     loop {
         tries += 1;
@@ -20,7 +20,7 @@ fn main() {
             .expect("Failed to read from standard input");
 
         // old bad solution
-        // // had input as the string buffer and guess as the "casted" int
+        // // had input as the string buffer and guess as the parsed int
         // let guess: u8 = input.trim().parse().unwrap_or(0);
         // if guess == 0 {
         //     println!("Enter a number!");
